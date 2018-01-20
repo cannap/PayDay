@@ -6,7 +6,6 @@
   "scripts": {
     "test": "ava  --verbose",
     "test:watch": "ava --watch --verbose"
-
   },
   "ava": {
     "files": [
