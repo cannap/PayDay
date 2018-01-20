@@ -4,8 +4,9 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "test": "ava",
-    "test:watch": "ava --watch --verbose"
+    "test": "ava  --verbose",
+    "test:watch": "ava --watch --verbose",
+
   },
   "ava": {
     "files": [
