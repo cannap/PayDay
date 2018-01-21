@@ -12,7 +12,7 @@ class PayDay {
     this.gateways[gatewayName] = gateway
     return this
   }
-  use (name) {
+  create (name) {
     return this.gateways[name]
   }
 }

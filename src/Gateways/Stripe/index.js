@@ -7,8 +7,9 @@ module.exports = class Stripe extends Gateway {
 
   /**
    *
-   * @param {string} key
+   * @param {string} Secret key
    */
+
   constructor (key) {
     super()
     this.stripe = stripe(key)
@@ -17,11 +18,15 @@ module.exports = class Stripe extends Gateway {
   /**
    *
    * @param {object} order
+   * @returns {promise}
    */
-  async charge (order) {
+  charge (order) {
     return this.stripe.charges.create(order)
   }
 
+  /**
+   * @returns {object} returns the original stipe instance
+   */
   instance () {
     return this.stripe
   }
