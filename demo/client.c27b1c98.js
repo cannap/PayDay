@@ -1,2 +1,0 @@
-webpackJsonp([1],[,function(e,n,t){e.exports=t(2)},function(e,n,t){"use strict";Object.defineProperty(n,"__esModule",{value:!0}),new(t(3).a)({el:"#app",render:function(){return(0,arguments[0])("h1",null,["Yo!"])}})}],[1]);
-//# sourceMappingURL=client.c27b1c98.js.map
